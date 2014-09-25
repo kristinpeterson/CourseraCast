@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dip"
+    android:orientation="horizontal" 
+    android:background="#fff3f3f3">
+    
+    <ImageView
+        android:id="@+id/listItemCheck"
+        android:contentDescription="@string/video_viewed_checkmark_alt"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:maxHeight="18dp"
+        android:maxWidth="18dp" 
+        android:gravity="center"
+        android:scaleType="center"/>
+ 
+    <TextView
+        android:id="@+id/lblListItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/listItemCheck"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:textColor="#000000"/>
+ 
+</RelativeLayout>

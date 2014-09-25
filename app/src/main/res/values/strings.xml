@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">CourseraCast</string>
+    <string name="title_course_list">Courses</string>
+    <string name="title_course_detail">Lectures</string>
+    <string name="title_activity_lecture_video">Lecture Video</string>
+    <string name="media_route_menu_title">Play on&#8230;</string>
+    <string name="app_id">1A5ECE9F</string>
+    <string name="loading">Loading&#8230;</string>
+
+    <!-- Menu -->
+    <string name="action_refresh">Refresh</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_rate">Rate CourseraCast</string>
+    <string name="rate_link">https://play.google.com/store/apps/details?id=me.kristinpeterson.courseracast</string>
+    <string name="action_donate">Donate (w/ Paypal)</string>
+    <string name="paypal_donation_link">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=M3X5PDZEHL23W</string>
+
+    <!-- Empty List Items -->
+    <string name="empty_lecture_list">There are currently no lectures for this course. If you have just begun this course
+        you may need to log in to Coursera to take an introductory survey before lectures will be available: https://www.coursera.org</string>
+    <string name="empty_current_course_list">You are not enrolled in any courses at this time. To enroll please visit https://www.coursera.org</string>
+    <string name="empty_past_course_list">You do not have any past courses.</string>
+
+    <!-- Image View Content Descriptions -->
+    <string name="course_logo_alt">Course Logo</string>
+    <string name="video_viewed_checkmark_alt">Checkmark image indicates video has been viewed.</string>
+
+    <!-- Error Messages -->
+    <string name="session_reconnection_attempt">Trying to reconnect&#8230;</string>
+    <string name="video_error_media_load_timeout">Media loading timed out</string>
+    <string name="video_error_server_unaccessible">Media server was not reachable</string>
+    <string name="video_error_unknown_error">Failed to load video</string>
+    <string name="connection_temp_lost">Connection to the cast device is temporarily lost</string>
+    <string name="connection_recovered">Connection to the cast device is recovered</string>
+    <string name="connection_lost_retry">Connection to the cast device has been temporarily lost. Application is trying to reover connection, please try again later</string>
+    <string name="connection_lost">No connection to the cast device exist</string>
+    <string name="failed_to_perfrom_action">Sorry, ran into issues perfroming the task you wanted</string>
+    <string name="oops">Oops</string>
+    <string name="error_request_timed_out">Request timed out, try again.</string>
+    <string name="error_no_network">There is no Network connection.</string>
+    <string name="error_network">Network Error</string>
+    <string name="error_processing_request">There was an error processing your request, please try again.</string>
+    <string name="error_re_login">Please Login Again</string>
+    <string name="error_loading_video">Error loading video.</string>
+</resources>

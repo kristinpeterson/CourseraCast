@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+		 android:id="@+id/media_route_menu_item"
+		 android:title="@string/media_route_menu_title"
+		 app:actionProviderClass="android.support.v7.app.MediaRouteActionProvider"
+		 app:showAsAction="always"/>
+    
+	<item 
+		android:id="@+id/action_refresh"
+		android:icon="@drawable/ic_action_refresh"
+		android:title="@string/action_refresh"
+		app:showAsAction="always" /> 
+	 
+    <item
+        android:id="@+id/action_logout"
+        android:showAsAction="never"
+        android:orderInCategory="1"
+        android:title="@string/action_logout"/>
+    
+    <item
+        android:id="@+id/action_rate"
+        android:showAsAction="never"
+        android:orderInCategory="2"
+        android:title="@string/action_rate"/>
+   	
+   	<item
+        android:id="@+id/action_donate"
+        android:showAsAction="never"
+        android:orderInCategory="3"
+        android:title="@string/action_donate"/>
+    
+</menu>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/course_detail_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CourseDetailActivity"
+    android:orientation="vertical"
+	android:background="#fff3f3f3">
+  	  
+	<ImageView
+	  android:id="@+id/course_logo"
+	  android:layout_width="match_parent"
+	  android:layout_height="175dp"
+	  android:layout_alignParentTop="true"
+	  android:layout_centerHorizontal="true"
+	  android:maxHeight="175dp"
+	  android:adjustViewBounds="true"
+	  android:scaleType="centerCrop"
+	  android:focusable="false"
+	  android:contentDescription="@string/course_logo_alt" />
+	
+	<TextView
+	  android:id="@+id/course_detail"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:layout_alignBottom="@id/course_logo"
+	  android:layout_centerHorizontal="true"
+	  android:gravity="center"
+	  android:paddingLeft="15dp"
+	  android:textSize="22sp"
+	  android:textColor="#fff3f3f3"
+	  android:shadowColor="#000000"
+	  android:shadowDx="1"
+	  android:shadowDy="10"
+	  android:shadowRadius="10"
+	  android:textIsSelectable="true"
+	  android:textStyle="bold"
+	  android:background="#50696969"/>
+	
+	<fragment android:name="me.kristinpeterson.courseracast.app.fragments.LectureListFragment"
+	  android:id="@+id/fragment_lecture_list"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:layout_below="@id/course_detail"
+	  android:layout_above="@+id/miniController1"
+	  android:background="#fff3f3f3">
+	</fragment>
+	
+    <include layout="@layout/loading_progress"/>
+	
+	<com.google.sample.castcompanionlibrary.widgets.MiniController
+	  android:id="@+id/miniController1"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:layout_alignParentBottom="true"
+	  android:visibility="gone"
+	  android:textColor="@android:color/white"
+	  android:background="#222222">
+	</com.google.sample.castcompanionlibrary.widgets.MiniController>
+	
+</RelativeLayout>
